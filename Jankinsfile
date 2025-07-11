@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         REPO_URL = 'https://github.com/vinaych303/flask-ci-cd.git'
-        DOCKER_IMAGE = 'kartikj7/flask-ci-cd:latest'
+        DOCKER_IMAGE = 'vinay102005/flask-ci-cd:latest'
           DEPLOY_SERVER = 'ubuntu@16.170.98.45'
     }
 
